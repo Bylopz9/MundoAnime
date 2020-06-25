@@ -22,4 +22,3 @@ def contacto(request):
 def blog(request):
     return render(request,"webapp/blog.html")
 
-#Video 32
