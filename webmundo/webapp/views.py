@@ -22,3 +22,5 @@ def contacto(request):
 def blog(request):
     return render(request,"webapp/blog.html")
 
+def servicios(request):
+    return render(request,"webapp/servicios.html")

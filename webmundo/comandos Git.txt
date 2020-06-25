@@ -16,6 +16,6 @@ https://www.youtube.com/watch?v=HiXLkL42tMU
 33:58 git checkout <branch name>
 35:17 agregar archivos de una vez con git add .
 41:15 crear un repositorio en github
-43:33 git remote
-44:10 git push
+43:33 git remote https://github.com/Bylopz9/MundoAnime.git
+44:10 git push - u master
 48:30 git clone
