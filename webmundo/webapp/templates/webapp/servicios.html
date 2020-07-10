@@ -4,30 +4,20 @@
 <table class="table table-hover table-dark">
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
+      <th scope="col">SERVICIO</th>
+      <th scope="col">DESCRIPCION</th>
+      <th scope="col">  </th>
+      </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      {% for s in servicios %}
+      <th scope="row">{{s.titulo}}</th>
+      <td>{{s.contenido}}</td>
+      <td>{{s.imagen}}</td>
+      {% endfor %}
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
+
   </tbody>
 </table>
 </div>
